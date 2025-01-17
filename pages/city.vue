@@ -27,5 +27,9 @@ const { data } = await owService.useCityDetail(
 <style>
 .city-view-wrapper {
   background: linear-gradient(180deg, #5a607c 0%, #161b30 49.93%);
+
+  @media (min-width: 640px) {
+    background: radial-gradient(80.36% 80.36% at 50% 0%, #5a607c 0%, #161b30 100%);
+  }
 }
 </style>
