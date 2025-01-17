@@ -19,7 +19,7 @@ const bookmarks = useStorage<[string, string][]>('bookmarked', [])
         :lon="bookmark[1]"
       />
     </template>
-    <template v-else>
+    <template v-else-if="!isHydrated">
       <div v-for="i in 3" :key="i" class="skeleton-loading-bg" h-58 rounded-1.5 />
     </template>
   </div>
