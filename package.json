@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "generate:icon-types": "node scripts/generate-sprite-types.cjs"
+  },
+  "dependencies": {
+    "@unocss/nuxt": "^65.4.2",
+    "@vueuse/core": "^12.4.0",
+    "@vueuse/nuxt": "^12.4.0",
+    "@vueuse/router": "^12.4.0",
+    "date-fns": "^4.1.0",
+    "nuxt": "^3.15.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.14.0",
+    "@iconify/json": "^2.2.295",
+    "@unocss/eslint-config": "^65.4.2",
+    "@unocss/preset-icons": "^65.4.2",
+    "eslint": "^9.18.0",
+    "eslint-plugin-format": "^1.0.1"
+  }
+}
